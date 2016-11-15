@@ -5,12 +5,12 @@ html, body{
 }
 .background{
 	position:relative;
-	/*background:url('../img/background.jpg');*/
-	height:500px;
-	background-color:#3F51B5;
-	/*background-size:cover;*/
-	/*background-repeat: no-repeat;*/
-	/*background-position: center; */
+	background:url('../img/background.jpg');
+	height:200px;
+	/*background-color:#3F51B5;*/
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center; 
 }
 .coffee{
 	font-size:15px;
@@ -57,9 +57,9 @@ html, body{
 	color:#9E9E9E;
 }
 .about{
+	margin-top:-150px;
 	min-height:500px;
 	text-align:center;
-	margin-top:-150px;
 }
 .about > span{
 	font-size:35px;
@@ -87,7 +87,7 @@ html, body{
 	text-align:center;
 }
 .skills > span{
-	color:#FF5722;
+	color:#9E9E9E;
 	font-size:35px;
 }
 .projects{
@@ -96,7 +96,7 @@ html, body{
 	text-align:center;
 }
 .projects > span{
-	color:#3f51b5;
+	color:#9E9E9E;
 	font-size:35px;
 }
 @media (min-width: 756px) and (max-width: 1200px) {
@@ -118,6 +118,14 @@ html, body{
 		min-height:200px;
 	}
 	.profile{
-		min-height:600px;
+		margin-top:-40px;
+		min-height:500px;
+	}
+	.about{
+		margin-top:0px;
+	}
+	.about > p{
+		line-height:30px;
+		font-size:18px;
 	}
 }

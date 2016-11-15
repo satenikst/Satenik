@@ -1,0 +1,119 @@
+html, body{
+	margin:0;
+	padding:0;
+	font-family: Cambria,Georgia,serif;
+}
+.background{
+	position:relative;
+	/*background:url('../img/background.jpg');*/
+	height:500px;
+	background-color:#3F51B5;
+	/*background-size:cover;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center; */
+}
+.coffee{
+	font-size:15px;
+	color:#fff;
+	font-family: "Lucida Sans Typewriter","Lucida Console",monaco,"Bitstream Vera Sans Mono",monospace;
+}
+/*.greeting{
+	position:absolute;
+	text-align:center;
+	font-size:90px;
+	color:#fff;
+	animation-name:comeDown;
+	animation-duration:1s;
+	top:150px;
+	animation-timing-function: cubic-bezier(.8,-0.05,.26,1.01);
+}*/
+@keyframes comeDown{
+	from{
+		top:-100px;
+	}
+	to{
+		top:150px;
+	}
+}
+.profile{
+	margin-top:-150px;
+	min-height:500px;
+}
+.profile > img{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.spanchik{
+	display:block;
+	height:1px;
+	width:60px;
+	background-color:#9FA8DA;
+	transition:all 0.7s cubic-bezier(.8,-0.05,.26,1.01);
+}
+.profile:hover .spanchik{
+	width:50%;
+}
+.name{
+	font-size:25px;
+	color:#9E9E9E;
+}
+.about{
+	min-height:500px;
+	text-align:center;
+}
+.about > span{
+	font-size:35px;
+	color:#9E9E9E;
+}
+.about > p{
+	line-height:60px;
+	font-size:25px;
+	color:#9E9E9E;
+}
+.imgs > img{
+	display:inline-block;
+	filter: drop-shadow(9px 9px 7px rgba(0,0,0,0.3));
+	filter: grayscale(100%);
+	opacity:0.3;
+	transition: all 0.5s ease;
+}
+.imgs > img:hover{
+	filter: grayscale(0);
+	opacity:0.8;
+}
+.skills{
+	/*background-color:#FFCCBC;*/
+	min-height:500px;
+	text-align:center;
+}
+.skills > span{
+	color:#FF5722;
+	font-size:35px;
+}
+.projects{
+	/*background-color:#2E7D32;*/
+	min-height:500px;
+	text-align:center;
+}
+.projects > span{
+	color:#3f51b5;
+	font-size:35px;
+}
+@media (min-width: 756px) and (max-width: 1200px) {
+	.about{
+		margin-top:-30px;
+	}
+	.imgs{
+		display:none;
+	}
+}
+@media screen and (max-width: 756px) {
+    .greeting{
+    	font-size:50px;
+    }
+    .imgs{
+		display:none;
+	}
+	.skills{
+		min-height:200px;
+	}
+}

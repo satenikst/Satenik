@@ -117,4 +117,7 @@ html, body{
 	.skills{
 		min-height:200px;
 	}
+	.profile{
+		min-height:600px;
+	}
 }

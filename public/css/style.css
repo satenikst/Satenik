@@ -59,6 +59,7 @@ html, body{
 .about{
 	min-height:500px;
 	text-align:center;
+	margin-top:-150px;
 }
 .about > span{
 	font-size:35px;

@@ -99,6 +99,23 @@ html, body{
 	color:#9E9E9E;
 	font-size:35px;
 }
+.complete{
+	left:0;
+	bottom:10%;
+	position:absolute;
+	height:80px;
+	width:100%;
+	background-color:#fff;
+	border:1px solid #9a9a9a;
+	line-height:80px;
+	color:#9a9a9a;
+	opacity:0;
+	transition: all 0.3s ease;
+}
+.notCmpl:hover .complete{
+	bottom:0;
+	opacity:1;
+}
 @media (min-width: 756px) and (max-width: 1200px) {
 	.about{
 		margin-top:-30px;

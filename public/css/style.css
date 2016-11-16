@@ -145,4 +145,7 @@ html, body{
 		line-height:30px;
 		font-size:18px;
 	}
+	.complete{
+		line-height:40px;
+	}
 }

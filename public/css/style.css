@@ -116,6 +116,19 @@ html, body{
 	bottom:0;
 	opacity:1;
 }
+.title{
+	font-size:18px;
+	color:#D50000;
+}
+.table > thead > tr > th{
+	border-color:#D50000;
+}
+.table-hover{
+	color:#777;
+}
+.table-hover tbody tr{
+	transition: all 0.5s ease;
+}
 @media (min-width: 756px) and (max-width: 1200px) {
 	.about{
 		margin-top:-30px;

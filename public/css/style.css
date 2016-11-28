@@ -129,6 +129,13 @@ html, body{
 .table-hover tbody tr{
 	transition: all 0.5s ease;
 }
+footer{
+	height:80px;
+	background:url('../img/background.jpg');
+}
+footer > div{
+	line-height:80px;
+}
 @media (min-width: 756px) and (max-width: 1200px) {
 	.about{
 		margin-top:-30px;
